@@ -1,37 +1,54 @@
-Directive by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+
+TITLE: 
+Concept - 100% Fully Responsive Free HTML5 Bootstrap Template
+
+AUTHOR:
+DESIGNED & DEVELOPED by GetTemplates.co
+
+Website: http://gettemplates.co/
+Twitter: http://twitter.com/gettemplatesco
+Facebook: http://facebook.com/gettemplatesco
 
 
-A simple single pager built around an angular motif (powered by SVG awesomeness).
-Should work great for a landing page. Also includes default styling for a bunch of
-standard page elements (uncomment the huge block of commented-out HTML to see it).
+CREDITS:
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+Bootstrap
+http://getbootstrap.com/
 
-(* = Not included)
+jQuery
+http://jquery.com/
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+jQuery Easing
+http://gsgd.co.uk/sandbox/jquery/easing/
 
-AJ
-aj@lkn.io | @ajlkn
+Modernizr
+http://modernizr.com/
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+Google Fonts
+https://www.google.com/fonts/
 
+Icomoon
+https://icomoon.io/app/
 
-Credits:
+Respond JS
+https://github.com/scottjehl/Respond/blob/master/LICENSE-MIT
 
-	Demo Images:
-		Unsplash (unsplash.com)
+animate.css
+http://daneden.me/animate
 
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+jQuery Waypoint
+https://github.com/imakewebthings/waypoints/blog/master/licenses.txt
 
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 Pie (css3pie.com)
-		background-size polyfill (github.com/louisremi)
-		Respond.js (j.mp/respondjs)
-		Skel (skel.io)
+Stellar Parallax
+http://markdalgleish.com/projects/stellar.js/
+
+jQuery countTo
+http://www.owlcarousel.owlgraphic.com/
+
+Magnific Popup
+http://dimsemenov.com/plugins/magnific-popup/
+
+Demo Images:
+http://pixeden.com
+http://unsplash.com
+
