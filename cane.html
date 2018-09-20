@@ -1,0 +1,184 @@
+<!DOCTYPE HTML>
+<!--
+	Directive by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>DeepView - Inteligência Artificial no Agronegócio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+        
+        <script>
+                window.onload = function() {                    
+                    var chart = new CanvasJS.Chart("chartContainer", {
+	animationEnabled: true,
+	title:{
+		text: "Precipitações mensais"
+	},
+	axisY:{
+		title: "Precipitação (em mm)"
+	},
+	toolTip: {
+		shared: true
+	},
+	data: [{
+		type: "column",
+		name: "Precipitações médias",
+		toolTipContent: "{label} <br> <b>{name}:</b> {y} mm",
+		dataPoints: [
+			{ y: 40, label: "Janeiro" },
+			{ y: 60, label: "Fevereiro" },
+			{ y: 120, label: "Março" },
+			{ y: 350, label: "Abril" },
+			{ y: 110, label: "Maio" },
+			{ y: 180, label: "Junho" },
+			{ y: 90, label: "Julho" }
+		]
+	},
+	{
+		type: "error",
+		name: "Variabilidade ",
+		toolTipContent: "<b>{name}:</b> {y[0]} - {y[1]} mm",
+		dataPoints: [
+			{ y: [30, 60], label:"Janeiro" },
+			{ y: [40, 70], label:"Fevereiro" },
+			{ y: [90, 130], label:"Março" },
+			{ y: [300, 360], label:"Abril" },
+			{ y: [90, 120], label:"Maio" },
+			{ y: [150, 200], label:"Junho" },
+			{ y: [80, 100], label:"Julho" }
+			
+		]
+	}]
+});
+chart.render();
+
+
+                }
+        </script>
+        
+	</head>
+	
+    	<body id="body">
+        
+        <div id= "header_nav">
+            <div id="logo">
+                <img src="images/tipo.png" width="100%">
+            </div>
+            <nav id="main_nav" role="navigation">
+
+				<ul>
+					<li><a class="icon fa-home" href="index.html"><span>Início</span></a></li>
+                    <li><a class="icon fa-leaf" href="cane.html#main"><span>Cana de açúcar</span></a></li>
+                    <li><a class="icon fa-leaf" href="#"><span>Grãos</span></a></li>
+                    <li><a class="icon fa-cog" href="contratar.html#main"><span>Contratar</span></a></li>
+                    <li><a class="icon fa-key" href="login.html"><span>Login</span></a></li>
+			     </ul>
+            </nav>
+        </div>        
+			<div id="header">
+				<h3>Monitoramento de plantações utilizando tecnologias de</h3>
+				<h2>Sensoriamento Remoto e Inteligência Artificial</h2>
+			</div>
+
+		<!-- Main -->
+			<div id="main">
+
+				<header class="major container 75%">
+                    <img src="images/logo.png" width="40%">
+					<h2>Utilizamos as melhores tecnologias para você tomar as melhores decisões</h2>
+                    <br />
+                    <img src="images/tablet_cane.png" width="70%">
+                    
+                    <br/>
+                     <p>A Ciência e Tecnologia são fundamentais para oferecer soluções inovadoras aos principais desafios do cultivo da cana de açũcar.</p>
+				</header>
+                
+                <div class="box alt container">
+					<section class="feature left">
+						<a href="#" class="image icon"><img src="images/pic_map.jpeg" alt="" width="50%"/></a>
+						<div class="content">
+							<h3>Mapeamento de linhas de plantio</h3>
+							<p>Os mapas de linhas de produção permitem aos produtores colher seu cultivo com máquinas equipadas com piloto automático, gerando rapidez nesse processo e diminuindo a compactação do solo.</p>
+						</div>
+					</section>
+					
+                    <section class="feature right">
+						<a href="#" class="image icon"><img src="images/pic_fail.jpeg" alt="" width="50%"/></a>
+						<div class="content">
+							<h3>Detecção de falhas</h3>
+							<p>O mapeamento das falhas de cultivo permite ao produtor uma melhor visão de seu cultivo e produção. Também possibilita uma rápida ação diante de áreas de cultivo com índice elevado de falhas.</p>
+						</div>
+					</section>
+					
+                    <section class="feature left">
+						<a href="#" class="image icon"><img src="images/pic_iv.jpeg" alt="" width="50%"/></a>
+						<div class="content">
+							<h3>Índices de vegetação</h3>
+							<p>Conjunto de mapas utilizados para avaliar e diagnosticar o índice de área foliar, biomassa, porcentagem de cobertura do solo e atividade fotossintética da planta. Assim, é possível monitorar o desenvolvimento da planta e detectar  regiões com desenvolvimento irregular.</p>
+						</div>
+					</section>
+				</div>
+				
+                <div class="box container">
+                    <div id="chartContainer" style="height: 370px; max-width: 920px; margin: 0px auto;"></div>
+<script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+                </div>                
+
+				<footer class="major container 75%">
+					<h3>Interessado? Fazemos uma avaliação sem custo</h3>
+
+					<p>Preencha o formulário e solicite o seu orçamento.</p>
+					<ul class="actions">
+						<li><a href="contratar.html#main" class="button">Solicitar avaliação</a></li>
+					</ul>
+				</footer>
+
+			</div>
+
+		<!-- Footer -->
+			<div id="footer">
+				<div class="container 75%">
+
+					<ul class="icons">
+<!--						<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
+						<li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+<!--						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>-->
+<!--						<li><a href="#" class="icon fa-dribbble"><span class="label">Dribbble</span></a></li>-->
+					</ul>
+
+                    <h1 class="deepview"><i>
+                        <span class="deep">Deep</span><span class="view">view</span>
+                        </i>
+                    
+                    </h1>
+                    <p>Inteligência Artificial no Agronegócio<br/></p>
+                    
+                    
+                    <p>Presidente Prudente - SP</br>
+                        +55 (xx) 0000-0000</br>
+                        contato@deepviewagro.com</p>
+                    
+					<ul class="copyright">
+						<li>&copy; DeepView. Todos os direitos reservados.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+					</ul>
+				</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+            <script src="assets/js/jquery.dropotron.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+            <script src="assets/js/skel-viewport.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
