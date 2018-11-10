@@ -185,7 +185,6 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .fh5co-nav ul li.has-dropdown .dropdown li {
   display: block;
-  margin-bottom: 7px;
 }
 .fh5co-nav ul li.has-dropdown .dropdown li:last-child {
   margin-bottom: 0;
@@ -438,7 +437,7 @@ h1, h2, h3, h4, h5, h6, figure {
   padding-right: 10px;
 }
 .fh5co-social-icons li a i {
-  font-size: 20px;
+  font-size: 40px;
 }
 
 .fh5co-contact-info ul {
@@ -1694,6 +1693,9 @@ h1, h2, h3, h4, h5, h6, figure {
   right: 10px;
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
+}
+.image-body {
+    width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
